@@ -1,4 +1,4 @@
-public class Ej5 { // Clase principal
+public class Ej05 { // Clase principal
   public static void main(String[] args) {
     System.out.printf("%-10s %-10s %-10s %-10s %-10s\n", "LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES");
     System.out.println("\033[33mPRO        \033[31mEDD        \033[33mPRO        \033[33mPRO        \033[34mSINF   ");

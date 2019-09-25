@@ -1,4 +1,4 @@
-public class Ej9{ // Clase principal
+public class Ej09{ // Clase principal
   public static void main(String[] args) {
     System.out.println("       |       ");
     System.out.println("    ^  __      ☼");

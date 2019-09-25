@@ -1,4 +1,4 @@
-public class Ej4 { // Clase principal
+public class Ej04 { // Clase principal
   public static void main(String[] args) {
     System.out.printf("%29s\n", "Horario");
     System.out.println();

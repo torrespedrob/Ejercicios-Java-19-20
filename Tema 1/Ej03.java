@@ -1,4 +1,4 @@
-public class Ej3 { // Clase principal
+public class Ej03 { // Clase principal
   public static void main(String[] args) {
     System.out.printf("%-10s %-10s\n", "Ingles", "Espanol");
     System.out.println();

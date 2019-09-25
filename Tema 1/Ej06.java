@@ -1,4 +1,4 @@
-public class Ej6 { // Clase principal
+public class Ej06 { // Clase principal
   public static void main(String[] args) {
     System.out.println("    *    ");
     System.out.println("   ***   ");
