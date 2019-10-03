@@ -1,18 +1,16 @@
-public class Ej05 {
+public class Ej06 {
   public static void main(String[] args) {
-    System.out.println("Puedo resolver ecuaciones de primer grado como ax + b = 0");
+    //Entrada
+    System.out.println("Puedo saber el tiempo que tarda en caer un objeto con una altura h");
+    System.out.println("Introduce la altura h: ");
+    double h = Double.parseDouble(System.console().readLine());
     
-    //Entrada de datos
-    System.out.print("Introduce el valor de a: ");
-    double a = Double.parseDouble(System.console().readLine());
-    System.out.print("Introduce el valor de b: ");
-    double b = Double.parseDouble(System.console().readLine());
-
+    //Cálculo
+    double dentroRaiz = (2 * h)/9.81;
+    double resultado = Math.sqrt(dentroRaiz);
+    
     //Salida
-    if (a == 0) {
-      System.out.println("No existe solucion para los datos introducidos");
-    } else {
-      System.out.println("x es igual a " + (-b/a));
-    }
+    System.out.printf("%-15s %-8.2f", "El resultado es: ", resultado);
+    
   }
 }
