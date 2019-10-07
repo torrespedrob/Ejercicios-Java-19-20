@@ -8,9 +8,22 @@ public class Ej13 {
     int numero2 = Integer.parseInt(System.console().readLine());
     System.out.println("Introduce el tercer numero: ");
     int numero3 = Integer.parseInt(System.console().readLine());
-    
+    int aux;
     //Ordenar
-    if (numero1 < numero2) {
-      
+    if (numero1 > numero2) {
+      aux = numero1;
+      numero1 = numero2;
+      numero2 = aux;
+    }
+    if (numero2 > numero3) {
+      aux = numero2;
+      numero2 = numero3;
+      numero3 = aux;
+    }
+    if (numero1 > numero2) {
+      aux = numero1;
+      numero1 = numero2;
+      numero2 = aux;
+    }
   }
 }

@@ -4,11 +4,11 @@ public class Ej09 {
     System.out.println("Introduce los valores de cada incógnita");
     
     //Entrada
-    System.out.print("a = ");
+    System.out.print("Introduce a = ");
     double a = Double.parseDouble(System.console().readLine());
-    System.out.print("b = ");
+    System.out.print("Introduce b = ");
     double b = Double.parseDouble(System.console().readLine());
-    System.out.print("c = ");
+    System.out.print("Introduce c = ");
     double c = Double.parseDouble(System.console().readLine());
     
     //Condicionales
