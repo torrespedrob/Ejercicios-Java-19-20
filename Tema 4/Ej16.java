@@ -59,6 +59,7 @@ public class Ej16 {
     }
     
     //Final
+    System.out.println("Has acumulado " + puntos + " puntos.");
     if (puntos <= 10) {
       System.out.println("¡Enhorabuena! tu pareja parece ser totalmente fiel.");
     } else if (puntos <= 22) {
