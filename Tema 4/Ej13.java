@@ -25,5 +25,7 @@ public class Ej13 {
       numero1 = numero2;
       numero2 = aux;
     }
+    
+    System.out.println("De menor a mayor: " + numero1 + "," + numero2 + "," + numero3);
   }
 }
