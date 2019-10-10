@@ -11,7 +11,7 @@ public class ej10 {
       suma += numero;
       cuentaNumero++;
     } while (numero >= 0);
-    
+    suma -= numero;
     double media = ((double) suma / (double) cuentaNumero);
     System.out.println("La media de esos números es " + media);
     
