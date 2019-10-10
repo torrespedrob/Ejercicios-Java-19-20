@@ -19,7 +19,7 @@ public class ej07 {
     } while (intentos > 0);
     
     if (intentos == 0) {
-      System.out.println("Lo siento, no lo has adivinado");
+      System.out.print("Lo siento, no lo has adivinado");
     }
   }
 }

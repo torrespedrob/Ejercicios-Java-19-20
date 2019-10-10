@@ -1,11 +1,9 @@
-public class ej08 {
+public class ej09 {
   public static void main(String[] args) {
-    System.out.println("Tabla de multiplicar");
-    System.out.print("Introduce el número que quieres saber: ");
+    //Entrada
+    System.out.println("Puedo saber cuantos digitos tiene un número entero");
+    System.out.println("Introduce un numero entero: ");
     int numero = Integer.parseInt(System.console().readLine());
     
-    for (int i = 0; i <= 10; i++) {
-      System.out.println(numero + " * " + i + " = " + (numero*i));
-    }
   }
 }
