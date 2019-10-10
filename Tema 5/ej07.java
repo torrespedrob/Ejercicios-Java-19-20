@@ -11,12 +11,11 @@ public class ej07 {
       entrada = Integer.parseInt(System.console().readLine());
       if (entrada == solucion) {
         System.out.println("Enhorabuena, lo has adivinado");
-        break;
       } else {
         System.out.println("Ese no es el codigo");
         intentos--;
       }
-    } while (intentos > 0);
+    } while (intentos > 0 && entrada != solucion);
     
     if (intentos == 0) {
       System.out.print("Lo siento, no lo has adivinado");
