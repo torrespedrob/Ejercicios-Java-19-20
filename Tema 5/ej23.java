@@ -15,7 +15,7 @@ public class ej23 {
     
     System.out.println("Has introducido " + cuentaNumeros + " números");
     System.out.println("El total introducido vale " + suma);
-    System.out.println("La media de todos los números es " + (suma/cuentaNumeros));
+    System.out.print("La media de todos los números es " + (suma/cuentaNumeros));
     
   }
 }

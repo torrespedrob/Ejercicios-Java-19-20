@@ -1,13 +1,14 @@
-public class ej13 {
+public class ej17 {
   public static void main(String[] args) {
-    System.out.println("Puedo saber si 10 números son positivos o negativos");
-    int num = 0;
-    for (int i = 0; i < 10; i++) {
-      num = Integer.parseInt(System.console().readLine());
-      if (num >= 0) {
-        System.out.println("El número " + num + " es positivo");
-      } else {
-        System.out.println("El número " + num + " es negativo");
+    System.out.println("Puedo sumar los 100 números siguientes a un número introducido");
+    System.out.println("Introduce un número entero positivo: ");
+    int numero = Integer.parseInt(System.console().readLine());
+    int suma = 0;
+    
+    if (numero >= 0) {
+      for (int i = 0; i < 100; i ++) {
+        suma += numero;
+        
       }
     }
   }
