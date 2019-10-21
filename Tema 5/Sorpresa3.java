@@ -55,7 +55,7 @@ public class Sorpresa3 {
         asteriscos += 2;
         
       } System.out.println();// while parte de abajo //
-    } // else
+    }
     }
     
   }
