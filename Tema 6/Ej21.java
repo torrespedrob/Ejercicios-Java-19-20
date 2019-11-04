@@ -10,7 +10,7 @@ public class Ej21 { // Clase principal
     
     //Aleatorizacion de cara o cruz
     cent2 = (int)(Math.random() * 2);
-    cent20 = (int)(Math.random() *2);
+    cent20 = (int)(Math.random() * 2);
     cent50 = (int)(Math.random() * 2);
     eur1 = (int)(Math.random() * 2);
     eur2 = (int)(Math.random() * 2);
