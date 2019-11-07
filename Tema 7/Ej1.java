@@ -11,6 +11,8 @@ public class Ej1 {
     num[8] = 5;
     num[9] = 120;
     
-    System.out.println(" " + num);
+    for (int i = 0; i < 9; i++) {
+      System.out.println(num[i]);
+    }
   }
 }
