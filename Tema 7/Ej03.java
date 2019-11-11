@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ej3 {
+public class Ej03 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     System.out.println("Este programa recoge diez numeros y los muestra en orden inverso");
