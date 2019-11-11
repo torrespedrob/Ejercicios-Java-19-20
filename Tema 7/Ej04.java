@@ -9,8 +9,8 @@ public class Ej04 {
     
     for (int i =0; i< 20; i++) {
       numero[i] = (int)(Math.random() * 100);
-      cuadrado[i] = (int)(i * i);
-      cubo[i] = (int)(i * i * i);
+      cuadrado[i] = (int)(numero[i] * numero[i]);
+      cubo[i] = (int)(numero[i] * numero[i] * numero[i]);
     }
     
     System.out.println(Arrays.toString(numero));
