@@ -17,13 +17,17 @@ public class Ej01_Bi {
     int fila;
     int columna;
     
-    for (fila = 0; fila < 3; fila++) {
-      System.out.print("Fila: " + fila);
-      
-      for (columna = 0; columna < 6; columna++) {
-        System.out.printf("%10d ", num[fila][columna]);
+    System.out.print("       ");
+    for(columna = 0; columna < 6; columna++) {
+      System.out.print("   Columna " + columna);
+    }
+    for(fila = 0; fila < 3; fila++) {
+
+      System.out.print("\nFila " + fila);
+  
+      for(columna = 0; columna < 6; columna++) {
+        System.out.printf("%9d   ", num[fila][columna]);
       }
-      System.out.println();
     }
   }
 }
