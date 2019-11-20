@@ -9,7 +9,6 @@ public class Tesoro {
     final int TESORO = 2;
     final int INTENTO = 3;
     
-    
     int x;
     int y;
     int[][] cuadrante = new int[5][4];
@@ -20,6 +19,7 @@ public class Tesoro {
         cuadrante[x][y] = VACIO;
       }
     }
+    
     // coloca la mina
     int minaX = (int)(Math.random() * 5);
     int minaY = (int)(Math.random() * 4);
