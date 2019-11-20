@@ -6,11 +6,13 @@ public class Ej05_Bi {
     
     int fila;
     int columna;
- 
+    
+    //Detecta la posicion del minimo
     int minimo = Integer.MAX_VALUE;
     int filaMinimo = 0;
     int columnaMinimo = 0;
     
+    //Detecta la posicion del maximo
     int maximo = Integer.MIN_VALUE;
     int filaMaximo = 0;
     int columnaMaximo = 0;
