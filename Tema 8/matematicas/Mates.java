@@ -1,4 +1,4 @@
-package Matematicas;
+package matematicas;
 
 public class Mates {
    public static Boolean esPrimo(long n) {
