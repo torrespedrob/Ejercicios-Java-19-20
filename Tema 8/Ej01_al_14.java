@@ -1,17 +1,17 @@
-package matematicas;
+import matematicas.Mates;
 
-public class Mates {
-  public static boolean esPrimo(int num) {
-    return esPrimo((long) n);
+public class Ej01_al_14 {
+  public static void main(String[] args) {
+    // es Capicua//
     
-    //2. Es primo
+    // es Primo//
     if (matematicas.Mates.esPrimo(29)) {
-      System.out.println("El 79 es primo");
+      System.out.println("El 29 es primo");
     }
 
-    if (matematicas.Mstes.esPrimo(80)) {
-      System.out.println("El 120 es primo");
+    if (matematicas.Mates.esPrimo(80)) {
+      System.out.println("El 80 es primo");
     }
-    
+    //
   }
 }
